@@ -1,1 +1,5 @@
-import createContext from './ProductContext'
+import React, { createContext } from 'react'
+
+export const CartContext = createContext()
+
+export default null

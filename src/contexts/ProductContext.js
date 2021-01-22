@@ -1,1 +1,7 @@
-import createContext from 'react'
+import { createContext } from 'react'
+
+
+export const ProductContext = createContext()
+
+
+// export default null

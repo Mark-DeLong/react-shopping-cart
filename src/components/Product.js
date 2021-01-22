@@ -1,9 +1,6 @@
 import React from 'react';
-import { useContext } from 'react'
-import ProductContext from '../contexts/ProductContext'
 
-const Product = () => {
-	const { products, addItem } = useContext(ProductContext)
+const Product = props => {
 
 	return (
 		<div 
@@ -27,8 +24,8 @@ const Product = () => {
 			</p>
 
 			<button 
-				onClick={() => addItem(product)}
-				>
+				onClick={() => props.addItem(props.product)}
+			>
 				Add to cart
 			</button>
 		</div>
