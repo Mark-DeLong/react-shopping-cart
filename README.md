@@ -115,7 +115,7 @@ const { products, addItem } = useContext(ProductContext);
 - Inside of our new `CartContext` import `createContext` and create a new context named `CartContext`.
 
 **STEP 6 - Providing data with CartContext**
-
+/////////
 - Let's go ahead and bring our newly created `CartContext` into our `App.js` and wrap all of our components inside of our `CartContext.Provider`. Make sure our `ProductContext.Provider` is still the root provider.
 
 - Now pass a value prop to our `CartContext.Provider`, this value prop is going to contain our `cart` state.
